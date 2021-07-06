@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React_Threat_Detectives/static/css/main.984ef96b.chunk.css",
+    "main.js": "/React_Threat_Detectives/static/js/main.ccfdcb76.chunk.js",
+    "main.js.map": "/React_Threat_Detectives/static/js/main.ccfdcb76.chunk.js.map",
+    "runtime-main.js": "/React_Threat_Detectives/static/js/runtime-main.6531c317.js",
+    "runtime-main.js.map": "/React_Threat_Detectives/static/js/runtime-main.6531c317.js.map",
+    "static/js/2.7563397c.chunk.js": "/React_Threat_Detectives/static/js/2.7563397c.chunk.js",
+    "static/js/2.7563397c.chunk.js.map": "/React_Threat_Detectives/static/js/2.7563397c.chunk.js.map",
+    "static/js/3.46d200cc.chunk.js": "/React_Threat_Detectives/static/js/3.46d200cc.chunk.js",
+    "static/js/3.46d200cc.chunk.js.map": "/React_Threat_Detectives/static/js/3.46d200cc.chunk.js.map",
+    "index.html": "/React_Threat_Detectives/index.html",
+    "static/css/main.984ef96b.chunk.css.map": "/React_Threat_Detectives/static/css/main.984ef96b.chunk.css.map",
+    "static/js/2.7563397c.chunk.js.LICENSE.txt": "/React_Threat_Detectives/static/js/2.7563397c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6531c317.js",
+    "static/js/2.7563397c.chunk.js",
+    "static/css/main.984ef96b.chunk.css",
+    "static/js/main.ccfdcb76.chunk.js"
+  ]
+}
