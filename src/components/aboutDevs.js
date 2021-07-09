@@ -203,13 +203,13 @@ export class AboutDevs extends Component {
                             <li><a href="https://github.com/ThreatDetectives" target="_blank"><img src="./images/github.png"></img></a></li>
                         </ul>
                         <ol>
+                            <li><a href="https://www.emilybryanart.com/" target="_blank">Emily Bryan / Business Strategist</a></li>
                             <li><a href="https://github.com/scottfalbo/react-circle-prog-widget" target="_blank">React circle widget</a></li>
-                            <li><a href="https://www.emilybryanart.com/" target="_blank">Emily Bryan</a></li>
+                            <li><a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">Beautiful Soup</a></li>
+                            <li><a href="https://developers.facebook.com/docs/facebook-login/access-tokens" target="_blank">Facebook for Developers</a></li>
+                            <li><a href="https://developer.twitter.com/en" target="_blank">Developer Twitter</a></li>
                             <li><a href="#" target="_blank">cool resource!!!</a></li>
-                            <li><a href="#" target="_blank">cool resource!!!</a></li>
-                            <li><a href="#" target="_blank">cool resource!!!</a></li>
-                            <li><a href="#" target="_blank">cool resource!!!</a></li>
-                            <li><a href="#" target="_blank">cool resource!!!</a></li>
+
                         </ol>
                         <button onClick={this.closePopup.bind(this)}>Close</button>
                                 

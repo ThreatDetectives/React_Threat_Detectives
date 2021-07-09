@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-// import data from './dummyData.json';
+import data from './data/dummyData.json';
+import data2 from './data/dummyData2.json';
+import data3 from './data/dummyData3.json';
+import data4 from './data/dummyData4.json';
+import data5 from './data/dummyData5.json';
 
 export class TwitterQuery extends Component {
 
@@ -32,11 +36,14 @@ export class TwitterQuery extends Component {
 
     async queryThreat(query) {
         this.props.toggleResults();
-        await this.apiQuery(query);
-        // console.log(result);
-        // this.parseData(result);
-        // this.props.displayQuery(query);
-        // this.setState({query:""});
+        // actual api comment out this for bottom to work
+        // await this.apiQuery(query);
+
+        //dummyData comment out below for above to work
+        let result=this.dummyApiQuery(query)
+        this.parseData(result);
+        this.props.displayQuery(query);
+        this.setState({query:""});
     }
     
  
@@ -44,7 +51,7 @@ export class TwitterQuery extends Component {
     parseData(result) {
 
         let index = 0;
-        console.log(result);
+        
         for(let i = 0;i<result.length;i+=2){
             let value = this.formatInteger(result[i+1]);
 
@@ -76,14 +83,41 @@ export class TwitterQuery extends Component {
         });
         return result;  
         
-        // let result = [];
+    }
+    
+    dummyApiQuery(query) {
+        let result;
 
-        // for(let i = 0;i<data.ThreatReport.length;i++){
-        //     let item = data.ThreatReport[i];
-        //     result.push(item);
-        // }
+        switch (query){
+            case "mtgreenee":
+                result=this.dummyHelper(data);
+                break;
+            case "oprah":
+                result=this.dummyHelper(data2);
+                break;
+            case "sethrogan":
+                result=this.dummyHelper(data3);
+                break;
+            case "tuckercarlson":
+                result=this.dummyHelper(data4);
+                break;
+            default:
+                result=this.dummyHelper(data5);
+                break;
+        }
+        return result;
+    }
+    
+    dummyHelper(data) {
         
-        // return result;
+        let result = [];
+    
+        for(let i = 0;i<data.ThreatReport.length;i++){
+            let item = data.ThreatReport[i];
+            result.push(item);
+        }
+        
+        return result;
     }
 
 
